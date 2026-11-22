@@ -67,7 +67,7 @@ window.FEUD = {
       steps: ["The host calls out an item.",
               "First team to bring it to the host wins points.",
               "Click the next card for the next item!"],
-      reveal: { label: "Whoever brings me a…", warn: "Placeholder items — edit them in data.js.",
+      reveal: { label: "Whoever brings me a…",
         items: ["Cornell ID with the number 5 on it", "Animal card folded 4 times", "Shoelace",
                 "Something blue", "A paper boat (make one!)"] } },
     { name: "FINAL SPEED PLAY", minutes: 1,
