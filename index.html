@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CUSail Family Feud</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>⛵</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="is-title">
+  <header id="topbar">
+    <button class="brand" data-go="0" title="Back to title">CUSail <span>Family Feud</span></button>
+    <nav class="nav">
+      <button id="prev" class="icon-btn" aria-label="Previous screen" title="Previous (←)">‹</button>
+      <select id="jump" aria-label="Jump to screen"></select>
+      <button id="next" class="icon-btn" aria-label="Next screen" title="Next (→)">›</button>
+    </nav>
+    <div class="tools">
+      <button id="stealBtn" class="btn btn-gold" title="Steal challenges (S)">⚓ Steal Challenges</button>
+      <button id="soundBtn" class="btn btn-ghost" title="Toggle sound effects">Sound on</button>
+      <button id="fsBtn" class="btn btn-ghost" title="Fullscreen (F)">Fullscreen</button>
+      <button id="resetBtn" class="btn btn-ghost" title="Reset scores and boards">Reset</button>
+    </div>
+  </header>
+
+  <div class="middle">
+    <main id="stage"></main>
+    <section id="steal" hidden></section>
+  </div>
+
+  <footer id="scoreboard" aria-label="Team scores"></footer>
+
+  <div id="strikeOverlay" aria-hidden="true"></div>
+  <div id="toast" role="status" aria-live="polite"></div>
+
+  <script src="data.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
