@@ -68,10 +68,10 @@ window.FEUD = {
               "First team to bring it to the host wins points.",
               "Click the next card for the next item!"],
       reveal: { label: "Whoever brings me a…", warn: "Placeholder items — edit them in data.js.",
-        items: ["Something CUSail", "A left shoe", "A hair tie", "A receipt",
+        items: ["Cornell ID with the number 5 on it", "Animal card folded 4 times", "Shoelace",
                 "Something blue", "A paper boat (make one!)"] } },
-    { name: "Mystery Minigame", minutes: 5,
-      steps: ["Minigame 6 is still TBD — edit it in data.js."] },
+    { name: "FINAL SPEED PLAY", minutes: 1,
+      steps: ["I don't know how to format this one so it's just gonna be manual"] },
   ],
 
   // Steal challenges — the 5 non-playing teams race to do it.
